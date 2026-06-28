@@ -11,11 +11,11 @@ The toolkit simplifies common JFrog Xray operations by providing an interactive 
 - **Multi-CVE Vulnerability Report Generation**
 - **Automated CSV Report Export**
 - **Package Discovery Across Multiple Repositories**
-- **Package Version & Usage Analysis**
-- **Repository Security Context Detection**
+- **Package Version & Security Context Analysis**
 - **Bulk Report Management**
-- **Automatic Output File Management**
 - **Authentication & Error Handling**
+```
+
 
 ---
 
