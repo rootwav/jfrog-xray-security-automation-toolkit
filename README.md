@@ -14,8 +14,6 @@ The toolkit simplifies common JFrog Xray operations by providing an interactive 
 - **Package Version & Security Context Analysis**
 - **Bulk Report Management**
 - **Authentication & Error Handling**
-```
-
 
 ---
 
@@ -25,6 +23,8 @@ The toolkit simplifies common JFrog Xray operations by providing an interactive 
 - JFrog Artifactory
 - JFrog Xray
 - Valid JFrog Access Token
+
+Install the required dependency:
 
 ```bash
 pip install -r requirements.txt
@@ -45,8 +45,24 @@ API_TOKEN = "YOUR_ACCESS_TOKEN"
 
 ## Usage
 
+Run the script:
+
 ```bash
 python jfrog_xray_appsec_tool.py
+```
+
+Select one of the available options:
+
+```text
+============================================================
+         AppSec Attack Surface Identifier
+============================================================
+
+1. Search Vulnerabilities by CVE ID(s)
+
+2. Check Package Existence in Repositories
+
+3. Delete Existing Reports Stored on Server
 ```
 
 ---
@@ -80,11 +96,11 @@ python jfrog_xray_appsec_tool.py
 ```text
 jfrog-xray-security-automation-toolkit/
 │
-├── jfrog_xray_appsec_tool.py
-├── README.md
-├── requirements.txt
-├── LICENSE
 ├── .gitignore
+├── LICENSE
+├── README.md
+├── jfrog_xray_appsec_tool.py
+├── requirements.txt
 └── screenshots/
     ├── main-menu.png
     ├── cve-report-generation.png
